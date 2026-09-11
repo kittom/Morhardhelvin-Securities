@@ -13,7 +13,7 @@
  */
 
 :root {
-  --blue: #007bff;
+  /* --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -25,15 +25,15 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #9cd8d8;
+  --gray-dark: #343a40; */
+  --primary: #eb4e4e;
   --secondary: #6c757d;
-  --success: #28a745;
+  /* --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #343a40; */
   
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -557,6 +557,33 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+.info-page{
+  /* background-image: url(../assets/img/uhuhuh.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  
+  
+}
+
+.info{
+  text-align: center;
+  padding-top: 50px;
+  min-height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.info-text{
+  text-align: left;
+}
+
+.malware-table, th,td {
+padding-bottom: 10px;
+}
+
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -2417,6 +2444,15 @@ textarea.form-control {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
